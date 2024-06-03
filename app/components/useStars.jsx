@@ -17,7 +17,15 @@ function Stars({ rating }) {
     Rate += '☆';
   }
 
+<<<<<<< HEAD
   return Rate
+=======
+  return (
+    <div className='text-yellow-500 text-[25px]'>
+      {Rate}
+    </div>
+  );
+>>>>>>> 985cc6c46b724af8f1a0c35f197163c679cb6664
 }
 
 export default Stars;
